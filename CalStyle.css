@@ -1,0 +1,123 @@
+body, html {
+  
+  
+  height: 100%;
+  overflow: hidden;
+  background-color: #677278;
+}
+
+#contenedor {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  box-shadow: 1px 1px 15px #242323;
+  padding: 10px;
+}
+
+#calendario {
+  width: 40%;
+  height: 80%;
+  overflow-y: auto;
+  background-color: #278c51;
+  align-items: center;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 1px 1px 15px #242323;
+
+}
+
+#calendario .calendar-container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  height: calc(90% - 55px); /* Se ajusta para dejar espacio para el título */
+  overflow-y: auto;
+  align-items: center;
+  
+}
+.day {
+  width: calc(100% / 7);
+  height: calc(100% / 6); /* Se ajusta para mostrar una cuadrícula de 6x7 */
+  border: 1px solid #242525;
+  background-color: #235f3f;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor .calendar
+
+
+.event {
+  background-color: #ffe6b3;
+}
+.day:hover {
+  background-color: #f2f2f2;
+}
+.day-number {
+  display: block;
+  text-align: center;
+}
+#blue-container {
+  width: 40%;
+  height: 80%;
+  background-color: #242525;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 2px 2px 15px #242323;
+}
+
+#currentMonthYear {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(46, 164, 243);
+}
+#navigationButtons {
+  display: flex;
+  justify-content: space-around  ;
+  
+  width: 100%;
+}
+
+#buscar{
+  margin-left: 7%;
+}
+
+#botonesTop{
+  display: flex;
+    justify-content: center;
+}
+
+#monthInput{
+  width: 7.5%;
+}
+
+#yearInput{
+  width: 10%;
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: end;
+}
+
+
+.current-day {
+  background-color: blue; /* Cambia el color de fondo a azul */
+  color: white;
+}

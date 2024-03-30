@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evitar desplazamiento */
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #a1c5a1; /* Verde claro */
+    z-index: -1; /* Coloca detrás de otros elementos */
+}
+
+.header {
+    background-color: #305030;
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    opacity: 1x;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+}
+
+
+
+h2 {
+    margin-top: 20px;
+    color: #228B22; /* Verde fuerte */
+}
+
+.footer {
+    background-color: #408e40; /* Verde fuerte */
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#signup-button {
+    background-color: #fff;
+    color:rgb(27,57,106,.90); /* Verde fuerte */
+    border: 2px solid #228B22; /* Verde fuerte */
+    padding: 10px 20px; /* Ajuste del tamaño del padding */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px; /* Ajuste del tamaño de la fuente */
+    min-width: 120px; /* Establece un ancho mínimo */
+}
+
+#signup-button:hover {
+    background-color: #228B22; /* Verde fuerte */
+    color: #fff;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#imagenpresentacion{
+    justify-content: left;
+    padding: 5%;
+    
+    
+}
+
+#textopresentacion{
+    justify-content: left;
+    font-family: 'Minecraftia', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+#imagensota{
+    box-shadow: 1px 1px 15px #242323;
+}
